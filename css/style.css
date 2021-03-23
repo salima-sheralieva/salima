@@ -3,7 +3,7 @@
 }
 
 .title {
-  margin-bottom: 60px;
+  margin-bottom: 105px;
   font-family: Oswald;
   font-weight: 500;
   font-size: 36px;
@@ -19,7 +19,7 @@
 }
 
 .wrap__block {
-  width: 33.33%;
+  width: 25%;
   padding-right: 30px;
 }
 .wrap__image {
