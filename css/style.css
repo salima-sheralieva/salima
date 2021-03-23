@@ -1,49 +1,47 @@
 .app {
-  font-family: Playfair Display;
-  background-color: #000000;
-  padding: 162px 0px 101px 0px;
+  padding: 153px 0px 309px 0px;
+}
+
+.title {
+  margin-bottom: 74px;
+  font-family: Oswald;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #404149;
 }
 .wrap {
   display: flex;
   flex-flow: wrap;
-  margin-right: -23px;
+  margin-right: -49px;
 }
 
-.title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 48px;
-  text-transform: uppercase;
-  color: #ffffff;
-  text-align: center;
-  margin: 121px;
-}
 .wrap__block {
-  width: 25%;
-  padding-right: 23px;
+  width: 50%;
+  padding-right: 49px;
 }
 .wrap__image {
-  background-color: #191b1c;
-  padding: 23px 55px 22px 54px;
-  margin-bottom: 25px;
+  margin-bottom: 66px;
 }
 
 .wrap__image img {
   width: 100%;
-  height: 214px;
 }
 
 .wrap__name {
-  font-size: 18px;
-  line-height: 24px;
-  color: #ffffff;
-  margin-bottom: 10px;
+  font-family: Oswald;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #404149;
+  margin-bottom: 20px;
 }
 
-.wrap__price {
-  font-weight: bold;
+.wrap__text {
+  font-family: Open Sans;
   font-size: 16px;
-  line-height: 21px;
-  color: #d0d0d0;
-  margin-bottom: 40px;
+  line-height: 22px;
+  color: #999999;
 }
