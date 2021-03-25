@@ -1,49 +1,79 @@
 .app {
-  padding: 153px 0px 309px 0px;
+  font-family: "Open Sans";
+  margin: 162px 0px 101px 0px;
+}
+.nav__bar {
+  background-color: #15cf74;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.title {
-  margin-bottom: 105px;
-  font-family: Oswald;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 53px;
+.logo__link {
+  font-family: "Roboto";
+  font-size: 48px;
+  line-height: 135%;
   text-align: center;
-  text-transform: uppercase;
-  color: #404149;
+  color: #ffffff;
 }
+
+.menu {
+  display: flex;
+}
+
+.menu__link {
+  padding: 73px 20px;
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 135%;
+  text-align: center;
+  color: #ffffff;
+}
+
 .wrap {
   display: flex;
   flex-flow: wrap;
+  background-color: yellow;
   margin-right: -30px;
 }
-
 .wrap__block {
   width: 25%;
   padding-right: 30px;
 }
-.wrap__image {
-  margin-bottom: 66px;
-}
 
+.wrap__image {
+  height: 254.99px;
+  object-fit: cover;
+  object-position: center;
+  padding-bottom: 21px;
+}
 .wrap__image img {
   width: 100%;
-  object-fit: center;
-  object-position: center;
 }
 
-.wrap__name {
-  font-family: Oswald;
+.wrap__date {
+  font-family: "Circe";
+  font-size: 14px;
+  line-height: 135%;
+  color: #2e373b;
+  margin-bottom: 11px;
+}
+
+.wrap__title {
+  font-family: "Roboto";
   font-weight: 500;
-  font-size: 24px;
-  line-height: 36px;
-  color: #404149;
-  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+  color: #f6404f;
+  margin-bottom: 9px;
 }
-
-.wrap__text {
-  font-family: Open Sans;
+.wrap__description {
+  font-family: "Circe";
   font-size: 16px;
-  line-height: 22px;
-  color: #999999;
+  line-height: 135%;
+  color: #2e373b;
+  margin-bottom: 42px;
 }
