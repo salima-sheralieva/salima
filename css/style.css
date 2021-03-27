@@ -8,7 +8,7 @@
 .nav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .logo__link {
@@ -37,6 +37,7 @@
   flex-flow: wrap;
   background-color: yellow;
   margin-right: -30px;
+  padding: 162px 197px 101px 233px;
 }
 .wrap__block {
   width: 25%;
