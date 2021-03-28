@@ -1,80 +1,92 @@
 .app {
-  font-family: "Open Sans";
-  margin: 162px 0px 101px 0px;
+  font-family: "Playfair Display";
 }
-.nav__bar {
-  background-color: #15cf74;
+
+/* haeder-start */
+.header {
+  background-color: #0f0f0f;
 }
-.nav {
+
+.header__naw {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.logo__link {
-  font-family: "Roboto";
-  font-size: 48px;
-  line-height: 135%;
-  text-align: center;
+.haeder__logo {
+  font-family: "Post No Bills Jaffna";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
   color: #ffffff;
 }
-
 .menu {
   display: flex;
 }
-
 .menu__link {
-  padding: 73px 20px;
-  font-family: "Roboto";
-  font-size: 24px;
-  line-height: 135%;
-  text-align: center;
-  color: #ffffff;
+  font-family: "PT Sans Caption";
+  margin: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #969696;
+}
+/* haeder-end */
+
+.news {
+  background-color: #000000;
+  padding: 145px 0px 125px 0px;
 }
 
-.wrap {
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-bottom: 121px;
+}
+.news__row {
   display: flex;
   flex-flow: wrap;
-  background-color: yellow;
-  margin-right: -30px;
-  padding: 162px 197px 101px 233px;
-}
-.wrap__block {
-  width: 25%;
-  padding-right: 30px;
 }
 
-.wrap__image {
-  height: 254.99px;
-  object-fit: cover;
-  object-position: center;
-  padding-bottom: 21px;
+/* article-start */
+.article {
+  width: 25%;
+  padding-right: 23px;
 }
-.wrap__image img {
+
+.article__img {
+  padding: 55px 22px 56px 23px;
+  margin-bottom: 25px;
+  background-color: #191b1c;
+}
+
+.article__img img {
   width: 100%;
 }
 
-.wrap__date {
-  font-family: "Circe";
-  font-size: 14px;
-  line-height: 135%;
-  color: #2e373b;
-  margin-bottom: 11px;
+.article__name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-bottom: 10px;
 }
 
-.wrap__title {
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 21px;
-  line-height: 130%;
-  letter-spacing: -0.01em;
-  color: #f6404f;
-  margin-bottom: 9px;
-}
-.wrap__description {
-  font-family: "Circe";
+.article__price {
+  font-style: normal;
+  font-weight: bold;
   font-size: 16px;
-  line-height: 135%;
-  color: #2e373b;
-  margin-bottom: 42px;
+  line-height: 21px;
+  color: #d0d0d0;
+  padding-bottom: 40px;
 }
+/* article-end */
