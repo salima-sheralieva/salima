@@ -1,7 +1,7 @@
 .app {
   font-family: "Roboto";
 }
-/* header-start */
+/*section header-start */
 .header {
   background-color: rgba(0, 33, 79, 0.6);
 }
@@ -15,14 +15,13 @@
   display: flex;
   padding: 33px 0px;
 }
-.header__logo__link {
+.header__logo-link {
   font-style: normal;
   font-weight: 900;
   font-size: 36px;
   line-height: 42px;
   color: #0f4898;
 }
-/* header-end */
 
 .menu {
   display: flex;
@@ -47,8 +46,9 @@
   color: #ffffff;
   padding-bottom: 10px;
 }
+/* section header-end */
 
-/* project-start */
+/*section project-start */
 .project {
   padding: 64px 0px 113px 0px;
 }
@@ -90,16 +90,17 @@
   margin-right: 67px;
 }
 
-.project__image {
+.project__img {
   width: 50%;
 }
 
 .project__img img {
   width: 100%;
 }
-/* project-end */
+/*section project-end */
 
-.newsbar {
+/*section news-start */
+.news__row {
   display: flex;
   flex-flow: wrap;
   margin-left: -40px;
@@ -183,3 +184,4 @@
   color: #000000;
   margin-bottom: 157px;
 }
+/*section news-end */
