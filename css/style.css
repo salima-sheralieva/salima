@@ -1,92 +1,185 @@
 .app {
-  font-family: "Playfair Display";
+  font-family: "Roboto";
 }
-
-/* haeder-start */
+/* header-start */
 .header {
-  background-color: #0f0f0f;
+  background-color: rgba(0, 33, 79, 0.6);
 }
 
-.header__naw {
+.header__nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
-.haeder__logo {
-  font-family: "Post No Bills Jaffna";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 54px;
-  color: #ffffff;
+.header__logo {
+  display: flex;
+  padding: 33px 0px;
 }
+.header__logo__link {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #0f4898;
+}
+/* header-end */
+
 .menu {
   display: flex;
 }
+
 .menu__link {
-  font-family: "PT Sans Caption";
-  margin: 20px;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 18px;
-  text-transform: uppercase;
-  color: #969696;
-}
-/* haeder-end */
-
-.news {
-  background-color: #000000;
-  padding: 145px 0px 125px 0px;
-}
-
-.title {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 48px;
-  text-align: center;
-  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 16px;
   color: #ffffff;
-  padding-bottom: 121px;
-}
-.news__row {
-  display: flex;
-  flex-flow: wrap;
+  padding: 11px;
 }
 
-/* article-start */
-.article {
-  width: 25%;
-  padding-right: 23px;
-}
-
-.article__img {
-  padding: 55px 22px 56px 23px;
-  margin-bottom: 25px;
-  background-color: #191b1c;
-}
-
-.article__img img {
-  width: 100%;
-}
-
-.article__name {
+.contacts__link {
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: right;
   color: #ffffff;
   padding-bottom: 10px;
 }
 
-.article__price {
+/* project-start */
+.project {
+  padding: 64px 0px 113px 0px;
+}
+
+.project__row {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.poject__content {
+  width: 50%;
+}
+
+.project__title {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 21px;
-  color: #d0d0d0;
-  padding-bottom: 40px;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
+  margin-bottom: 20px;
 }
-/* article-end */
+
+.project__subtitle {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.project__description {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 22px;
+  color: #000000;
+  margin-right: 67px;
+}
+
+.project__image {
+  width: 50%;
+}
+
+.project__img img {
+  width: 100%;
+}
+/* project-end */
+
+.newsbar {
+  display: flex;
+  flex-flow: wrap;
+  margin-left: -40px;
+}
+.news__button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 33px;
+}
+
+.news__logo__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.news__logo__sudtitle {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.news__menu {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.article {
+  width: 33%;
+  padding-left: 40px;
+}
+
+.article__img {
+  margin-bottom: 30px;
+}
+
+.article__img img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.article__deta {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.05em;
+  color: #343434;
+  margin-bottom: 15px;
+}
+
+.article__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  color: #303942;
+  margin-bottom: 15px;
+}
+
+.article__description {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  margin-bottom: 157px;
+}
