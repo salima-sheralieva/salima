@@ -95,6 +95,7 @@
   display: flex;
   margin-right: 20px;
 }
+
 .menu__link {
   font-style: normal;
   font-weight: normal;
@@ -122,6 +123,7 @@
 .navbar__action {
   padding: 29px 20px;
 }
+
 .navbar__action:hover {
   background-color: #1f1f1f;
 }
@@ -129,16 +131,12 @@
 /* SECTION HEADER-END */
 
 /* SECTION BANNER-START */
-
 .banner {
   background-image: url("../img/01\ \(1\).png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding: 160px 0px 154px 0px;
-  /* display: flex; */
-  /* align-items: center;
-  justify-content: center; */
 }
 
 .banner__wrap {
@@ -189,71 +187,45 @@
 /* SECTION BANNER-END */
 
 /* SECTION SEASON-START */
-
-.season__row {
+.season {
   display: flex;
+  flex-flow: wrap;
 }
-.new__season {
+
+.season__content {
   width: 55%;
   background-color: #000000;
-  padding: 93px 0px;
-  font-family: "Playfair Display";
+  padding: 93px 80px 93px 72px;
 }
 
-.season__title {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 48px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
+.title--content {
+  margin-bottom: 100px;
+}
+.season__row {
+  display: flex;
+  flex-flow: wrap;
+  margin-right: -50px;
 }
 
-.news__wrap {
-  padding: 93px 0px;
+.season__article {
+  padding-right: 50px;
+  width: 33.333%;
 }
 
-.new__collection {
+.title--banner {
+  margin-bottom: 60px;
+}
+
+.season__banner {
   padding: 484px 0px 100px 0px;
   width: 45%;
   background-image: url("../img/03.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  text-align: center;
 }
 
-.new__collection-title {
-  font-family: "Playfair Display";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 48px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
-  margin-bottom: 60px;
-}
-
-.button {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px 28px;
-  width: 138px;
-  height: 47px;
-  border: 1px solid #ffffff;
-  box-sizing: border-box;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 23px;
-  text-align: center;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #ffffff;
-  margin: auto;
-}
 /* SECTION SEASON-END */
 
 /* SECTION COLLETION-START */
@@ -287,15 +259,8 @@
 }
 
 .collection__title {
-  font-family: "Playfair Display";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 48px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
   margin-bottom: 80px;
+  font-weight: normal;
 }
 
 .collection__description {
@@ -307,78 +272,27 @@
   color: #ffffff;
   margin-bottom: 61px;
 }
-
-.collection__button {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px 28px;
-  width: 311px;
-  height: 47px;
-  border: 1px solid #ffffff;
-  box-sizing: border-box;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 23px;
-  text-align: center;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #ffffff;
-  white-space: nowrap;
-}
-
 /* SECTION COLLETION-END */
 
 /* SECTION NEWS-START */
 .news {
   background-color: #000;
   padding: 125px 0px 150px 0px;
-  color: #ffffff;
-  font-family: "Playfair Display";
 }
 
 .news__title {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 48px;
-  text-align: center;
-  text-transform: uppercase;
   margin-bottom: 121px;
 }
 
 .news__row {
   display: flex;
   flex-flow: wrap;
+  margin-right: -23px;
 }
-
-.article {
+.news__article {
   width: 25%;
-}
-
-.article__img {
-  background-color: #191b1c;
-  margin-right: 23px;
-  margin-bottom: 25px;
-}
-
-.article__img img {
-  width: 100%;
-}
-
-.article__name {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 24px;
-  margin-bottom: 10px;
-}
-.article__price {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 21px;
+  padding-right: 23px;
   margin-bottom: 40px;
 }
+
 /* SECTION NEWS-END */
