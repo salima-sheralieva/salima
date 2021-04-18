@@ -1,61 +1,17 @@
-/* article-start */
-.article {
-  font-family: "Playfair Display";
-  color: #ffffff;
-}
-
-.article__img {
-  background-color: #191b1c;
-  padding: 55px 22px;
-  margin-bottom: 25px;
-}
-
-.article__img img {
-  width: 100%;
-}
-
-.article__name {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 24px;
-  margin-bottom: 10px;
-}
-
-.article__price {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 21px;
-}
-/* article-end */
-
-/* title-start */
 .title {
   font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 48px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
   text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
-  font-family: "Playfair Display";
+  color: #000000;
 }
-/* title-end */
 
-/* button-start */
-.button {
-  padding: 12px 28px;
-  border: 1px solid #ffffff;
+.description {
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  background-color: transparent;
-  line-height: 23px;
-  text-align: center;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #ffffff;
-  outline: none;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  max-width: 540px;
 }
-/* button-start */
