@@ -4,18 +4,17 @@
   height: auto;
   outline: none;
   border: none;
-}
-
-.button__title {
+  display: flex;
+  align-items: center;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
   line-height: 22px;
   letter-spacing: -0.427179px;
   color: #000000;
-  margin-right: 9px;
 }
 
 .button img {
   width: 20px;
+  margin-left: 9px;
 }
