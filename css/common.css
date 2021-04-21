@@ -1,17 +1,22 @@
-.title {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 37px;
-  text-align: center;
-  color: #000000;
+.button {
+  background-color: #ffac12;
+  border-radius: 0px 18px 0px 0px;
+  height: auto;
+  outline: none;
+  border: none;
 }
 
-.description {
+.button__title {
   font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 26px;
-  color: #727272;
-  max-width: 540px;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.427179px;
+  color: #000000;
+  margin-right: 9px;
+}
+
+.button img {
+  width: 20px;
+  height: 10px;
 }
