@@ -60,6 +60,12 @@
 
 .navbar__button {
   padding: 14px 40px;
+  background-color: #ffac12;
+  color: #000000;
+}
+.navbar__button img {
+  width: 20px;
+  margin-left: 9px;
 }
 /* navbar-end */
 
@@ -216,4 +222,4 @@
     font-size: 16px;
   }
 }
-/* wrap-media-start */
+/* wrap-media-end */

@@ -1,5 +1,6 @@
+/* banner-start */
+
 .button {
-  background-color: #ffac12;
   border-radius: 0px 18px 0px 0px;
   height: auto;
   outline: none;
@@ -11,10 +12,63 @@
   font-size: 17px;
   line-height: 22px;
   letter-spacing: -0.427179px;
+}
+
+/* banner-end */
+
+/* hands-start */
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 65px;
+  letter-spacing: -1.25641px;
   color: #000000;
 }
 
-.button img {
-  width: 20px;
-  margin-left: 9px;
+.description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.502564px;
+  color: #000000;
 }
+
+/* hands-end */
+/* media-start */
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 45px;
+    line-height: 45px;
+  }
+  .description {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .title {
+    font-size: 35px;
+  }
+
+  .description {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .button {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .title {
+    font-size: 28px;
+  }
+  .description {
+    font-size: 14px;
+  }
+}
+/* media-end */
