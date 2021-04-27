@@ -38,37 +38,11 @@
 /* hands-end */
 /* media-start */
 @media screen and (max-width: 768px) {
-  .title {
-    font-size: 45px;
-    line-height: 45px;
-  }
-  .description {
-    font-size: 18px;
-    line-height: 25px;
-  }
 }
 
 @media screen and (max-width: 576px) {
-  .title {
-    font-size: 35px;
-  }
-
-  .description {
-    font-size: 18px;
-    line-height: 20px;
-  }
-
-  .button {
-    font-size: 12px;
-  }
 }
 
 @media screen and (max-width: 414px) {
-  .title {
-    font-size: 28px;
-  }
-  .description {
-    font-size: 14px;
-  }
 }
 /* media-end */
