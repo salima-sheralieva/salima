@@ -4,21 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>salima</title>
+    <title>Document</title>
     <link rel="stylesheet" href="fonts/Raleway/stylesheet.css" />
     <link rel="stylesheet" href="fonts/Open Sans/stylesheet.css" />
     <link rel="stylesheet" href="fonts/Sansation Light/stylesheet.css" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/common.css" />
-    <link rel="stylesheet" href="css/pages/index.css" />
+    <link rel="stylesheet" href="css/pages/menu.css" />
     <link rel="stylesheet" href="css/modules/header.css" />
-    <link rel="stylesheet" href="css/modules/footer.css" />
   </head>
-  <body class="main-page">
+  <body class="menu-page">
     <div class="app">
       <!-- SECTION HEADER-START -->
-      <header class="header">
+      <header class="header header--menu">
         <div class="container">
           <div class="header__row">
             <div class="navbar">
@@ -37,12 +36,11 @@
 
                 <!-- menu-start -->
                 <ul class="menu">
-                  <li class="menu__link menu__link--active">
-                    <a href="">главный</a>
-                    <a href="#"></a>
-                  </li>
                   <li class="menu__link">
-                    <a href="menu.html">меню</a>
+                    <a href="index.html">главный</a>
+                  </li>
+                  <li class="menu__link menu__link--active">
+                    <a href="#">меню</a>
                   </li>
                   <li class="menu__link">
                     <a href="about-us.html">о нас</a>
@@ -67,8 +65,10 @@
               <span class="burger__item burger__item--2"></span>
               <span class="burger__item burger__item--3"></span>
             </div>
+            <div class="title">меню</div>
           </div>
         </div>
+
         <!-- mob-menu-start -->
         <div id="mob-menu" class="mob-menu">
           <div class="mob-menu__header">
@@ -87,10 +87,10 @@
           </div>
 
           <div class="mob__title">
-            <a href="#">главная</a>
+            <a href="index.html">главная</a>
           </div>
           <div class="mob__title">
-            <a href="menu.html">меню</a>
+            <a href="#">меню</a>
           </div>
           <div class="mob__title">
             <a href="about-us.html">о нас</a>
@@ -106,69 +106,168 @@
       </header>
       <!-- SECTION HEADER-END -->
 
-      <!-- SECTION BANNER-START -->
-      <section class="banner">
+      <!-- SECTION DISHES-START -->
+      <section class="dishes">
         <div class="container">
-          <div class="banner__row">
-            <div class="banner__content">
-              <h1 class="banner__subtitle">Ты голодный?</h1>
-              <h2 class="banner__title">Не время ждать!</h2>
-              <p class="banner__description">заказай вкусную еду и угащайся</p>
-              <button class="banner__button">
-                <span>заказ</span>
-              </button>
+          <div class="dishes__row">
+            <!-- dish-start -->
+            <div class="dish-wrap">
+              <a class="dish" href="Пицца">
+                <div class="dish__title">Пицца</div>
+                <img
+                  class="dish__img"
+                  src="img/menu/menu__icon/pizza 1.svg"
+                  alt=""
+                />
+              </a>
             </div>
+            <!-- dish-end -->
 
-            <div class="banner__img">
-              <img
-                class="banner__img-main"
-                src="img/the main/Mask Group.png"
-                banner__buttun
-                alt=""
-              />
-              <img
-                class="banner__img-aditional"
-                src="img/the main/Mask Group-1.png"
-                alt=""
-              />
+            <!-- dish-start -->
+            <div class="dish-wrap">
+              <a class="dish" href="Напитки">
+                <img
+                  class="dish__img"
+                  src="img/menu/menu__icon/sparkling-water 1.svg"
+                  alt=""
+                />
+                <div class="dish__title">Напитки</div>
+              </a>
             </div>
+            <!-- dish-end -->
+
+            <!-- dish-start -->
+            <div class="dish-wrap">
+              <a class="dish" href="Слайсы">
+                <div class="dish__title">Слайсы</div>
+                <img
+                  class="dish__img"
+                  src="img/menu/menu__icon/pizza (1) 1.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+            <!-- dish-end -->
+
+            <!-- dish-start -->
+            <div class="dish-wrap">
+              <a class="dish" href="Роллы">
+                <img
+                  class="dish__img"
+                  src="img/menu/menu__icon/sushi (1) 2.svg"
+                  alt=""
+                />
+                <div class="dish__title">Роллы</div>
+              </a>
+            </div>
+            <!-- dish-end -->
+
+            <!-- dish-start -->
+            <div class="dish-wrap">
+              <a class="dish" href="Суши">
+                <div class="dish__title">Суши</div>
+                <img
+                  class="dish__img"
+                  src="img/menu/menu__icon/sushi 1.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+            <!-- dish-end -->
+
+            <!-- dish-start -->
+            <div class="dish-wrap">
+              <a class="dish" href="Сеты">
+                <img
+                  class="dish__img"
+                  src="img/menu/menu__icon/sushi (2) 1.svg"
+                  alt=""
+                />
+                <div class="dish__title">Сеты</div>
+              </a>
+            </div>
+            <!-- dish-end -->
+
+            <!-- dish-start -->
+            <div class="dish-wrap">
+              <a class="dish" href="Фаст-фуды">
+                <div class="dish__title">Фаст-фуды</div>
+                <img
+                  class="dish__img"
+                  src="img/menu/menu__icon/burger 1.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+            <!-- dish-end -->
+
+            <!-- dish-start -->
+            <div class="dish-wrap">
+              <a class="dish" href="Горячие напитки">
+                <img
+                  class="dish__img"
+                  src="img/menu/menu__icon//coffee-cup 1.svg"
+                  alt=""
+                />
+                <div class="dish__title">Горячие напитки</div>
+              </a>
+            </div>
+            <!-- dish-end -->
+
+            <!-- dish-start -->
+            <div class="dish-wrap">
+              <a class="dish" href="Гунканы">
+                <div class="dish__title">Гунканы</div>
+                <img
+                  class="dish__img"
+                  src="img/menu/menu__icon/ikura-gunkan-maki 1.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+            <!-- dish-end -->
+
+            <!-- dish-start -->
+            <div class="dish-wrap">
+              <a class="dish" href="Горячие ролы">
+                <img
+                  class="dish__img"
+                  src="img/menu/menu__icon/sushi (1) 1.svg"
+                  alt=""
+                />
+                <div class="dish__title">Горячие ролы</div>
+              </a>
+            </div>
+            <!-- dish-end -->
+
+            <!-- dish-start -->
+            <div class="dish-wrap">
+              <a class="dish" href="Тонкие роллы">
+                <div class="dish__title">Тонкие роллы</div>
+                <img
+                  class="dish__img"
+                  src="img/menu/menu__icon/sushi-roll 1.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+            <!-- dish-end -->
+
+            <!-- dish-start -->
+            <div class="dish-wrap">
+              <a class="dish" href="Дополнительные">
+                <div class="dish__title">Дополнительные</div>
+              </a>
+            </div>
+            <!-- dish-end -->
           </div>
-          <button class="banner__button banner__button--order">заказ</button>
         </div>
       </section>
-      <!-- SECTION BANNER-END -->
+      <!-- SECTION DISHES-END -->
 
-      <!-- SECTION FOOTER-START -->
-      <section class="footer">
-        <div class="container">
-          <div class="footer__row">
-            <div class="slider">
-              <div class="slider__img">
-                <img src="img/the main/филадельфия 1 (1).png" alt="" />
-              </div>
-              <div class="slider__content">
-                <h3 class="slider__title">Филадельфия</h3>
-                <h4 class="slider__subtitle slider__subtitle--center">
-                  -cыр сливочный, оругрец ласось свежий
-                </h4>
-                <h4 class="slider__subtitle">8шт-220гр.</h4>
-              </div>
-            </div>
-
-            <div class="footer__content">
-              <div class="footer__title">Мы находимся</div>
-              <p class="footer__description">
-                <img src="img/the main/Vector (1).svg" alt="" />
-
-                Масалиева проспект 16а ориентир: Супер маркет “Mango”
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- SECTION FOOTER-END -->
-
+      <!-- feed-back-start -->
       <div class="feed-back">
+        <!-- whatsapp- -->
         <svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0)">
             <path
@@ -186,6 +285,7 @@
             </clipPath>
           </defs>
         </svg>
+        <!-- whatsapp -->
 
         <svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -233,13 +333,12 @@
           />
         </svg>
       </div>
+      <!-- feed-back-end -->
     </div>
-
     <script>
       var button = document.querySelector("#burger-button");
       var menu = document.querySelector("#mob-menu");
       var closeBtn = document.querySelector("#close");
-
       var body = document.querySelector("body");
 
       button.onclick = function () {

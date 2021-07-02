@@ -1,0 +1,98 @@
+.contacts-page {
+  background: linear-gradient(180deg, #000000 0%, #626262 97.36%);
+}
+
+.header--contacts {
+  padding: 0px 0px 64px 0px;
+  background-image: url(../../img/contacts/задний\ фон.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* media-start */
+@media screen and (max-width: 576px) {
+  .header--contacts {
+    padding: 25px 0px 10px 0px;
+  }
+}
+
+.cantacts {
+  padding: 50px 0px 0px 0px;
+}
+
+.contact__row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact {
+  padding-left: 80px;
+}
+.contact--first {
+  padding-right: 80px;
+  border-right: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.contact .contact__title {
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.contact p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+.map {
+  width: 80%;
+  margin: auto;
+  height: 400px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact--first {
+    padding-right: 50px;
+  }
+  .contact {
+    padding-left: 50px;
+  }
+
+  .contact p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .contact--first {
+    padding-right: 26px;
+  }
+  .contact {
+    padding-left: 26px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .contact__row {
+    display: block;
+  }
+
+  .contact--first {
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+  }
+
+  .contact {
+    padding: 20px 0px;
+  }
+  .contact p {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+  }
+}

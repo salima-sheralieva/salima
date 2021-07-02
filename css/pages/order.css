@@ -1,0 +1,205 @@
+.order-page {
+  background: linear-gradient(180deg, #121111 0%, #393939 100%);
+}
+
+.header--order {
+  padding: 0px 0px 64px 0px;
+  background-image: url(../../img/menu/pexels-chevanon-photography-359993\ 1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.choices {
+  padding: 60px 0px;
+}
+
+.choices__block {
+  padding: 65px 128px;
+  background: linear-gradient(180deg, #656464 27.11%, #343434 100%);
+}
+
+.choices__title {
+  font-family: "Sansation";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 72px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.choices__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.choices__header p {
+  font-family: "Sansation";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 40px;
+
+  color: #ffffff;
+}
+
+.choice {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ffffff;
+}
+
+.choice p {
+  font-family: "Sansation";
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 54px;
+  color: #ffffff;
+}
+.choice__sum {
+  margin-top: 160px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #ffffff;
+}
+.choice__sum p {
+  font-family: "Sansation";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 54px;
+  color: #ffffff;
+}
+
+.choice__button {
+  font-family: "Sansation";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 54px;
+  width: 321px;
+  height: 73px;
+  background: #f4393a;
+  color: #ffffff;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  .choices__title {
+    font-size: 54px;
+  }
+
+  .choice p {
+    font-size: 36px;
+  }
+
+  .choice__sum p {
+    font-size: 36px;
+  }
+
+  .choice__button {
+    font-size: 36px;
+    width: 270px;
+    height: 56px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .choices__block {
+    padding: 30px 50px;
+  }
+
+  .choices__title {
+    font-size: 36px;
+  }
+
+  .choices__header {
+    margin-bottom: 20px;
+  }
+  .choices__header p {
+    font-size: 26px;
+  }
+  .choice {
+    margin-bottom: 10px;
+  }
+  .choice p {
+    font-size: 28px;
+  }
+
+  .choice__sum p {
+    font-size: 28px;
+  }
+
+  .choice__button {
+    font-size: 28px;
+    width: 220px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .choices__title {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+
+  .choices__header p {
+    font-size: 20px;
+  }
+  .choice {
+    margin-bottom: 0px;
+  }
+  .choice p {
+    font-size: 20px;
+  }
+  .choice__sum {
+    margin-top: 80px;
+  }
+  .choice__sum p {
+    font-size: 20px;
+  }
+
+  .choice__button {
+    font-size: 20px;
+    width: 150px;
+    height: 38px;
+    line-height: 38px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .choices__block {
+    padding: 20px 40px;
+  }
+
+  .choices__header {
+    margin-bottom: 0px;
+  }
+
+  .choices__header p {
+    font-size: 17px;
+  }
+
+  .choice p {
+    font-size: 14px;
+    line-height: 40px;
+  }
+
+  .choice__sum p {
+    font-size: 14px;
+  }
+  .choice__button {
+    font-size: 14px;
+    width: 111px;
+    height: 28px;
+    line-height: 28px;
+  }
+}

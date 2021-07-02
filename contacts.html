@@ -4,21 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>salima</title>
+    <title>Document</title>
     <link rel="stylesheet" href="fonts/Raleway/stylesheet.css" />
     <link rel="stylesheet" href="fonts/Open Sans/stylesheet.css" />
     <link rel="stylesheet" href="fonts/Sansation Light/stylesheet.css" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/common.css" />
-    <link rel="stylesheet" href="css/pages/index.css" />
+    <link rel="stylesheet" href="css/pages/contacts.css" />
     <link rel="stylesheet" href="css/modules/header.css" />
-    <link rel="stylesheet" href="css/modules/footer.css" />
   </head>
-  <body class="main-page">
+  <body class="contacts-page">
     <div class="app">
       <!-- SECTION HEADER-START -->
-      <header class="header">
+      <header class="header header--contacts">
         <div class="container">
           <div class="header__row">
             <div class="navbar">
@@ -37,9 +36,8 @@
 
                 <!-- menu-start -->
                 <ul class="menu">
-                  <li class="menu__link menu__link--active">
-                    <a href="">главный</a>
-                    <a href="#"></a>
+                  <li class="menu__link">
+                    <a href="index.html">главный</a>
                   </li>
                   <li class="menu__link">
                     <a href="menu.html">меню</a>
@@ -47,8 +45,8 @@
                   <li class="menu__link">
                     <a href="about-us.html">о нас</a>
                   </li>
-                  <li class="menu__link">
-                    <a href="contacts.html">контакты</a>
+                  <li class="menu__link menu__link--active">
+                    <a href="#">контакты</a>
                   </li>
                   <li class="menu__link">
                     <a href="order.html">заказ</a>
@@ -69,6 +67,7 @@
             </div>
           </div>
         </div>
+
         <!-- mob-menu-start -->
         <div id="mob-menu" class="mob-menu">
           <div class="mob-menu__header">
@@ -87,7 +86,7 @@
           </div>
 
           <div class="mob__title">
-            <a href="#">главная</a>
+            <a href="index.html">главная</a>
           </div>
           <div class="mob__title">
             <a href="menu.html">меню</a>
@@ -96,79 +95,76 @@
             <a href="about-us.html">о нас</a>
           </div>
           <div class="mob__title">
-            <a href="contacts.html">контакты</a>
+            <a href="#">контакты</a>
           </div>
           <div class="mob__title">
             <a href="order.html">заказ</a>
           </div>
         </div>
         <!-- mob-menu-start -->
+
+        <div class="title">контакты</div>
       </header>
       <!-- SECTION HEADER-END -->
 
-      <!-- SECTION BANNER-START -->
-      <section class="banner">
+      <div class="cantacts">
         <div class="container">
-          <div class="banner__row">
-            <div class="banner__content">
-              <h1 class="banner__subtitle">Ты голодный?</h1>
-              <h2 class="banner__title">Не время ждать!</h2>
-              <p class="banner__description">заказай вкусную еду и угащайся</p>
-              <button class="banner__button">
-                <span>заказ</span>
-              </button>
+          <div class="contact__row">
+            <div class="contact contact--first">
+              <p class="contact__title">телефон номер</p>
+              <p>+996 00 00 00</p>
+              <p>+996 00 00 00</p>
+              <p>+996 00 00 00</p>
             </div>
-
-            <div class="banner__img">
-              <img
-                class="banner__img-main"
-                src="img/the main/Mask Group.png"
-                banner__buttun
-                alt=""
-              />
-              <img
-                class="banner__img-aditional"
-                src="img/the main/Mask Group-1.png"
-                alt=""
-              />
-            </div>
-          </div>
-          <button class="banner__button banner__button--order">заказ</button>
-        </div>
-      </section>
-      <!-- SECTION BANNER-END -->
-
-      <!-- SECTION FOOTER-START -->
-      <section class="footer">
-        <div class="container">
-          <div class="footer__row">
-            <div class="slider">
-              <div class="slider__img">
-                <img src="img/the main/филадельфия 1 (1).png" alt="" />
-              </div>
-              <div class="slider__content">
-                <h3 class="slider__title">Филадельфия</h3>
-                <h4 class="slider__subtitle slider__subtitle--center">
-                  -cыр сливочный, оругрец ласось свежий
-                </h4>
-                <h4 class="slider__subtitle">8шт-220гр.</h4>
-              </div>
-            </div>
-
-            <div class="footer__content">
-              <div class="footer__title">Мы находимся</div>
-              <p class="footer__description">
-                <img src="img/the main/Vector (1).svg" alt="" />
-
-                Масалиева проспект 16а ориентир: Супер маркет “Mango”
-              </p>
+            <div class="contact">
+              <p class="contact__title">наш адрес</p>
+              <p>Масалиева 16а</p>
+              <p>ориентир</p>
+              <p>Ала-Тоо кафеси</p>
             </div>
           </div>
         </div>
-      </section>
-      <!-- SECTION FOOTER-END -->
-
+      </div>
+      <div id="map" class="map">
+        <a
+          class="dg-widget-link"
+          href="http://2gis.kg/osh/firm/70000001032399447/center/72.80182600021364,40.54405328463737/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap"
+          >Посмотреть на карте Оша</a
+        >
+        <div class="dg-widget-link">
+          <a
+            href="http://2gis.kg/osh/firm/70000001032399447/photos/70000001032399447/center/72.80182600021364,40.54405328463737/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=photos"
+            >Фотографии компании</a
+          >
+        </div>
+        <div class="dg-widget-link">
+          <a
+            href="http://2gis.kg/osh/center/72.801824,40.54375/zoom/16/routeTab/rsType/bus/to/72.801824,40.54375╎Sushi Burger, суши-бар?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route"
+            >Найти проезд до Sushi Burger, суши-бар</a
+          >
+        </div>
+        <script
+          charset="utf-8"
+          src="https://widgets.2gis.com/js/DGWidgetLoader.js"
+        ></script>
+        <script charset="utf-8">
+          new DGWidgetLoader({
+            width: "100%",
+            height: "100%",
+            borderColor: "#a3a3a3",
+            pos: { lat: 40.54405328463737, lon: 72.80182600021364, zoom: 16 },
+            opt: { city: "osh" },
+            org: [{ id: "70000001032399447" }],
+          });
+        </script>
+        <noscript style="color: #c00; font-size: 16px; font-weight: bold"
+          >Виджет карты использует JavaScript. Включите его в настройках вашего
+          браузера.</noscript
+        >
+      </div>
+      <!-- feed-back-start -->
       <div class="feed-back">
+        <!-- whatsapp -->
         <svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0)">
             <path
@@ -186,6 +182,7 @@
             </clipPath>
           </defs>
         </svg>
+        <!-- whatsapp -->
 
         <svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -233,13 +230,13 @@
           />
         </svg>
       </div>
+      <!-- feed-back-end -->
     </div>
 
     <script>
       var button = document.querySelector("#burger-button");
       var menu = document.querySelector("#mob-menu");
       var closeBtn = document.querySelector("#close");
-
       var body = document.querySelector("body");
 
       button.onclick = function () {

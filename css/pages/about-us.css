@@ -1,0 +1,78 @@
+.about-us {
+  background: linear-gradient(180deg, #000000 12.68%, #626262 97.36%);
+}
+
+.header--about-us {
+  padding: 0px 0px 64px 0px;
+  background-image: url("../../img/about/фон.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.information {
+  padding: 100px 2rem;
+  background-image: url("../../img/about/1.png"), url("../../img/about/2.png"),
+    url("../../img/about/4.png"), url("../../img/about/3.png");
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: left, 100% 18%, 95% 100%, 100% 75%;
+  background-size: 252px, 250px, 180px, 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.information p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  max-width: 622px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .information {
+    padding: 68px 2rem;
+    background-position: left, 100% 18%, 95% 100%, 100% 75%;
+    background-size: 190px, 185px, 150px, 135px;
+  }
+
+  .information p {
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 376px;
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .information {
+    background-position: 0% 0%, 100% 75%, 95% 100%, 100% 95%;
+    background-size: 85px, 100px, 60px, 66px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .information {
+    background-position: 0% 0%, 100% 92%, 90% 100%, 100% 100%;
+    background-size: 50px, 66px, 40px, 40px;
+  }
+
+  .information p {
+    font-size: 12px;
+    line-height: 16px;
+    max-width: 368px;
+    margin-bottom: 5px;
+    word-break: break-all;
+  }
+}
+
+/* media-start */
+@media screen and (max-width: 576px) {
+  .header--about-us {
+    padding: 25px 0px 10px 0px;
+  }
+}

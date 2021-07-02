@@ -1,0 +1,109 @@
+.menu-page {
+  background: linear-gradient(180deg, #121111 0%, #393939 100%);
+}
+
+.header--menu {
+  padding: 0px 0px 64px 0px;
+  background-image: url(../../img/menu/pexels-chevanon-photography-359993\ 1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.dishes {
+  padding: 89px 0px 145px 0px;
+}
+.dishes__row {
+  display: flex;
+  flex-flow: wrap;
+  margin-right: -68px;
+}
+.dish-wrap {
+  width: 50%;
+  padding-right: 68px;
+  margin-bottom: 20px;
+}
+
+.dish {
+  padding: 13px 30px 15px 30px;
+  height: 115px;
+  border: 2px solid #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dish__title {
+  font-family: "Sansation";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 54px;
+
+  color: #ffffff;
+}
+
+.dish__img {
+  width: 87px;
+  height: 87px;
+}
+
+/* media-start */
+@media screen and (max-width: 992px) {
+  .dish {
+    height: 80px;
+  }
+
+  .dish__title {
+    font-size: 26px;
+  }
+
+  .dish__img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dishes {
+    padding: 89px 0px 90px 0px;
+  }
+
+  .dish {
+    height: 60px;
+  }
+
+  .dish__title {
+    font-size: 16px;
+  }
+
+  .dish__img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .dishes__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+  }
+
+  .dish-wrap {
+    width: 80%;
+    margin-bottom: 20px;
+    padding-right: 0px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .dishes__row {
+    display: block;
+  }
+  .dish-wrap {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
